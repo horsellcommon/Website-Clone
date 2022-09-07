@@ -181,3 +181,16 @@ body {
     display: flex;
     justify-content: center;
 }
+
+.news-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.mailing-list{
+    display: flex;
+    justify-content: center;
+}
