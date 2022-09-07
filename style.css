@@ -152,6 +152,10 @@ body {
     font-size: 60px;
     text-align: center;
 }
+#heading2-center{
+    font-size: 40px;
+    text-align: center;
+}
 
 .container1 {
     position: absolute;
@@ -159,8 +163,8 @@ body {
     right: 700px;
     width: 1800px;
     height: 400px;
-    /* background-color: white;
-    border: 1px solid white; */ /*Uncomment when touching up*/
+    /*background-color: white;
+    border: 1px solid white;*/ /*Uncomment when touching up */
 }
 .live-container{
     display: flex;
@@ -171,4 +175,9 @@ body {
 .link-box{
     border: solid thick black;
     font-size: x-large;
+}
+
+.video-index{
+    display: flex;
+    justify-content: center;
 }
