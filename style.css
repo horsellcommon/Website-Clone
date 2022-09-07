@@ -38,4 +38,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: x-large;
+}
+
+.pre-order-text-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#paraspaced {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: x-large;
 }
