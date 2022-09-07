@@ -167,3 +167,8 @@ body {
     font-size: 35px;
     justify-content: space-evenly;
 }
+
+.link-box{
+    border: solid thick black;
+    font-size: x-large;
+}
