@@ -21,10 +21,23 @@ body {
     margin: 0%;
 }
 
+#the {
+    text-align: center;
+    margin: 0%;
+    font-size: 125px;
+}
+
+#car {
+    text-align: center;
+    margin: 0%;
+    font-size: 135px;
+}
+
 #white-logo {
     text-align: center;
     margin: 0%;
     color: white;
+    font-size: 100px;
 }
 
 .tighter-text {
@@ -39,12 +52,6 @@ body {
     align-items: center;
     justify-content: center;
     font-size: x-large;
-}
-
-.pre-order-text-col {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #paraspaced {
@@ -159,7 +166,7 @@ body {
 
 .container1 {
     position: absolute;
-    top: 2500px;
+    top: 2860px;
     right: 700px;
     width: 1800px;
     height: 400px;
