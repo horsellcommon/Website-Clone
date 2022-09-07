@@ -115,3 +115,35 @@ body {
     color: #a0a081;
     border: solid thick #a0a081;
 }
+
+.vinyl-cd-cas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.underlines{
+    display: flex;
+    justify-content: space-evenly;
+}
+.underline1{
+    border: solid thick black;
+    width: 300px;
+}
+.underline2{
+    border: solid thick black;
+    width: 300px;
+}
+.underline3{
+    border: solid thick black;
+    width: 300px;
+}
+.underline4{
+    border: solid thick black;
+    width: 300px;
+}
+
+.vinyl-cd-cas-links{
+    display: flex;
+    justify-content: space-evenly; /*Sort these out*/
+    font-size: 35px;
+}
