@@ -147,3 +147,23 @@ body {
     justify-content: space-evenly; /*Sort these out*/
     font-size: 35px;
 }
+
+#heading-center{
+    font-size: 60px;
+    text-align: center;
+}
+
+.container1 {
+    position: absolute;
+    top: 2500px;
+    right: 700px;
+    width: 1800px;
+    height: 400px;
+    /* background-color: white;
+    border: 1px solid white; */ /*Uncomment when touching up*/
+}
+.live-container{
+    display: flex;
+    font-size: 35px;
+    justify-content: space-evenly;
+}
