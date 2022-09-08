@@ -9,23 +9,21 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: #a0a081;
-    align-items: center;
     overflow: hidden;
     position: fixed;
     top: 0;
-    width: 100%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    width: 100vw;
+    padding: 25px;
     font-size: 25px;
 }
 
-a{
+a {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 1000;
 }
 
 a:link {
-    color: black;
+    color:black;
     text-decoration: none;
 }
 
@@ -93,15 +91,6 @@ a:active {
     font-size: x-large;
 }
 
-/* .container {
-    position: absolute;
-    top: 300px;
-    right: 700px;
-    width: 1800px;
-    height: 800px;
-    background-color: white;
-    border: 1px solid white;
-} */
 .container {
     position: absolute;
     top: 32%;
@@ -158,8 +147,9 @@ a:active {
     font-weight: 800;
     font-size: 150%;
     position: absolute;
-    left: 11.4%;
+    left: 10.5%;
     top: 68.5%;
+    padding: 1%;
     color: #a0a081;
     border: solid thick #a0a081;
 }
@@ -168,8 +158,9 @@ a:active {
     font-weight: 800;
     font-size: 150%;
     position: absolute;
-    left: 11.93%;
+    left: 11%;
     top: 80%;
+    padding: 1%;
     color: #a0a081;
     border: solid thick #a0a081;
 }
@@ -286,12 +277,33 @@ a:active {
 
 .link-box{
     border: solid thick black;
+    padding: 0.5%;
     font-size: x-large;
 }
 .link-box-live{
     font-family: Arial, Helvetica, sans-serif;
     border: solid thick black;
+    padding: 2%;
     font-size: xx-large;
+}
+.mailing-link-box{
+    border: solid thick black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 800;
+    margin-left: 1%;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 800;
+    padding-top: 0.5%;
+}
+
+input{
+    padding-left: 1%;
+    padding-right: 1%;
 }
 
 .video-index{
@@ -309,5 +321,7 @@ a:active {
 
 .mailing-list{
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
+    padding-top: 0.8%;
 }
