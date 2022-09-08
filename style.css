@@ -93,7 +93,7 @@ a:active {
     font-size: x-large;
 }
 
-.container {
+/* .container {
     position: absolute;
     top: 300px;
     right: 700px;
@@ -101,65 +101,74 @@ a:active {
     height: 800px;
     background-color: white;
     border: 1px solid white;
+} */
+.container {
+    position: absolute;
+    top: 32%;
+    left: 30%;
+    width: 40%;
+    height: 40%;
+    background-color: white;
+    border: 1px solid white;
 }
 
 .inner-image {
     position: absolute;
-    top: 50px;
-    right: 50px;
-    width: 800px;
-    height: 700px;
+    top: 5%;
+    right: 35px;
+    width: 50%;
+    height: 90%;
 }
 
 .inner-text1 {
     font-family: 'Russo One', sans-serif;
-    font-size: 100px;
+    font-size: 700%;
     position: absolute;
-    left: 300px;
-    top: 40px;
+    left: 8%;
+    top: 0.5%;
     color: #a0a081;
 }
 .inner-text2 {
     font-family: 'Russo One', sans-serif;
-    font-size: 100px;
+    font-size: 700%;
     position: absolute;
-    left: 250px;
-    top: 115px;
+    left: 1.8%;
+    top: 14%;
     color: #a0a081;
 }
 .inner-text3 {
     font-family: 'Russo One', sans-serif;
-    font-size: 120px;
+    font-size: 750%;
     position: absolute;
-    left: 380px;
-    top: 175px;
+    left: 15%;
+    top: 26.4%;
     color: black;
 }
 .inner-text4 {
     font-family: 'Russo One', sans-serif;
-    font-size: 135px;
+    font-size: 800%;
     position: absolute;
-    left: 360px;
-    top: 249px;
+    left: 14%;
+    top: 39.4%;
     color: black;
 }
 .pre-order-inner{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 200%;
     position: absolute;
-    left: 280px;
-    top: 470px;
+    left: 11.4%;
+    top: 68.5%;
     color: #a0a081;
     border: solid thick #a0a081;
 }
 .pre-save-inner{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 200%;
     position: absolute;
-    left: 290px;
-    top: 548px;
+    left: 11.93%;
+    top: 80%;
     color: #a0a081;
     border: solid thick #a0a081;
 }
@@ -247,7 +256,8 @@ a:active {
     text-align: center;
 }
 #heading2-center{
-    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
     text-align: center;
 }
 
