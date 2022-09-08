@@ -10,6 +10,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     background-color: #a0a081;
+    border: solid thin grey;
     overflow: hidden;
     position: fixed;
     top: 0;
