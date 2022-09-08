@@ -178,6 +178,13 @@ a:active {
     grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
     justify-content: space-evenly;
 }
+.live-grid{
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+    justify-content: space-evenly;
+}
 
 .underlines{
     display: flex;
@@ -199,6 +206,17 @@ a:active {
 }
 .underline4{
     border: solid thick black;
+    width: 300px;
+}
+
+.underline-live{
+    display: flex;
+    border: solid thick black;
+    width: 300px;
+}
+.false-underline{
+    display: flex;
+    border: transparent;
     width: 300px;
 }
 
@@ -233,15 +251,27 @@ a:active {
     /*background-color: white;
     border: 1px solid white;*/ /*Uncomment when touching up */
 }
+
 .live-container{
     display: flex;
     font-size: 35px;
     justify-content: space-evenly;
 }
 
+#live-para{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: x-large;
+}
+
 .link-box{
     border: solid thick black;
     font-size: x-large;
+}
+.link-box-live{
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid thick black;
+    font-size: xx-large;
 }
 
 .video-index{
