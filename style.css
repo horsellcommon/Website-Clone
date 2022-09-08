@@ -178,6 +178,15 @@ a:active {
     grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
     justify-content: space-evenly;
 }
+.product-grid-apparel{
+    display: grid;
+    justify-content: space-evenly;
+    gap: 1rem;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+    justify-content: space-evenly;
+}
+
 .live-grid{
     display: grid;
     gap: 1rem;
