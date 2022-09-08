@@ -106,8 +106,8 @@ a:active {
     position: absolute;
     top: 32%;
     left: 30%;
-    width: 40%;
-    height: 40%;
+    width: 40vw;
+    height: 40vh;
     background-color: white;
     border: 1px solid white;
 }
@@ -116,13 +116,14 @@ a:active {
     position: absolute;
     top: 5%;
     right: 35px;
-    width: 50%;
-    height: 90%;
+    /* width: 50%; */
+    height: 36vh;
+    width: 20vw;
 }
 
 .inner-text1 {
     font-family: 'Russo One', sans-serif;
-    font-size: 700%;
+    font-size: 500%;
     position: absolute;
     left: 8%;
     top: 0.5%;
@@ -130,15 +131,15 @@ a:active {
 }
 .inner-text2 {
     font-family: 'Russo One', sans-serif;
-    font-size: 700%;
+    font-size: 500%;
     position: absolute;
-    left: 1.8%;
+    left: 2.5%;
     top: 14%;
     color: #a0a081;
 }
 .inner-text3 {
     font-family: 'Russo One', sans-serif;
-    font-size: 750%;
+    font-size: 550%;
     position: absolute;
     left: 15%;
     top: 26.4%;
@@ -146,7 +147,7 @@ a:active {
 }
 .inner-text4 {
     font-family: 'Russo One', sans-serif;
-    font-size: 800%;
+    font-size: 600%;
     position: absolute;
     left: 14%;
     top: 39.4%;
@@ -155,7 +156,7 @@ a:active {
 .pre-order-inner{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    font-size: 200%;
+    font-size: 150%;
     position: absolute;
     left: 11.4%;
     top: 68.5%;
@@ -165,7 +166,7 @@ a:active {
 .pre-save-inner{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    font-size: 200%;
+    font-size: 150%;
     position: absolute;
     left: 11.93%;
     top: 80%;
