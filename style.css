@@ -51,30 +51,30 @@ a:active {
 #the {
     font-family: 'Russo One', sans-serif;
     text-align: center;
-    margin: -3.5%;
-    font-size: 125px;
+    margin: -2.8%;
+    font-size: 100px;
 }
 
 #car {
     font-family: 'Russo One', sans-serif;
     text-align: center;
-    margin-top: 1.7%;
-    font-size: 135px;
+    margin-top: 1.4%;
+    font-size: 110px;
 }
 
 #white-logo1 {
     font-family: 'Russo One', sans-serif;
     text-align: center;
     color: white;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 #white-logo {
     font-family: 'Russo One', sans-serif;
     text-align: center;
-    margin-top: -3.4%;
+    margin-top: -2.7%;
     color: white;
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .tighter-text {
@@ -84,9 +84,10 @@ a:active {
 }
 
 .pre-order-text {
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    display: flex;
     align-items: center;
     justify-content: center;
     font-size: x-large;
@@ -95,6 +96,7 @@ a:active {
 #paraspaced {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
+    margin-top: -5%;
     margin-right: 5px;
     margin-left: 5px;
     font-size: x-large;
