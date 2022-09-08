@@ -13,7 +13,8 @@ body {
     position: fixed;
     top: 0;
     width: 100vw;
-    padding: 25px;
+    padding-top: 20px;
+    padding-bottom: 15px;
     font-size: 25px;
 }
 
@@ -287,7 +288,9 @@ a:active {
     font-size: xx-large;
 }
 .mailing-link-box{
+    display: flex;
     border: solid thick black;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     font-weight: 800;
