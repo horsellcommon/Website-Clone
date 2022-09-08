@@ -5,6 +5,7 @@ body {
 }
 
 .navbar {
+    z-index: 10000;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -50,28 +51,35 @@ a:active {
 #the {
     font-family: 'Russo One', sans-serif;
     text-align: center;
-    margin: 0%;
+    margin: -3.5%;
     font-size: 125px;
 }
 
 #car {
     font-family: 'Russo One', sans-serif;
     text-align: center;
-    margin: 0%;
+    margin-top: 1.7%;
     font-size: 135px;
+}
+
+#white-logo1 {
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 100px;
 }
 
 #white-logo {
     font-family: 'Russo One', sans-serif;
     text-align: center;
-    margin: 0%;
+    margin-top: -3.4%;
     color: white;
     font-size: 100px;
 }
 
 .tighter-text {
     display: flex;
-    padding-top: 100px;
+    margin-top: 1%;
     flex-direction: column;  
 }
 
