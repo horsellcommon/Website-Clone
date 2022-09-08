@@ -315,8 +315,33 @@ label {
 }
 
 input{
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    border: thick solid black;
+    background-color: #a0a081;
+}
+select{
+    padding-left: 106.8%;
+    padding-right: 50%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items: center;
+    border: thick solid black;
+    background-color: #a0a081;
+}
+
+.label{
+    padding-right: 21.6%;
+}
+.label-email{
+    padding-right: 23.2%;
+}
+.label-country{
+    padding-right: 22.5%;
+}
+.input-country{
+    padding-right: 15.7%;
 }
 
 .video-index{
@@ -329,7 +354,7 @@ input{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
 }
 
 .mailing-list{

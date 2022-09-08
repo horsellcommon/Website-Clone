@@ -32,7 +32,7 @@
     <div>
         <img src="img\car.jpg" alt="Car background" width="100%" height="30%">
     </div>
-    <div class="container">
+    <div class="container"> <!--Maybe to fix this on low/hi-res, lower font-size?-->
         <h1 class="inner-text1">ARCTIC</h1>
         <h1 class="inner-text2">MONKEYS</h1>
         <h1 class="inner-text3">THE</h1>
@@ -181,13 +181,22 @@
     <h1 id="heading-center">GET THE LATEST NEWS</h1>
     <br><br><br><br>
     <div class="news-box">
+        <div class="label">
         <label for="Forename">First name*</label>
+        </div>
         <input type="Forename">
+        <div class="label">
         <label for="Surname">Last Name*</label>
+        </div>
         <input type="Surname">
+        <div class="label-email">
         <label for="email">Email*</label>
+        </div>
         <input type="email">
+        <div class="label-country">
         <label for="Country">Country*</label>
+        </div>
+        <div class="input-country">
         <select id="country" name="country">
             <option>Select Country</option>
             <option value="AF">Afghanistan</option>
@@ -443,6 +452,7 @@
             <option value="ZM">Zambia</option>
             <option value="ZW">Zimbabwe</option>
         </select>
+        </div>
     </div>
     <div class="mailing-list">
         <p>By subscribing to the mailing list you agree to the <a href="">terms of <br>use</a> of the Arctic Monkeys' Newsletter</p>
