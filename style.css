@@ -16,7 +16,17 @@ body {
     width: 100vw;
     padding-top: 20px;
     padding-bottom: 15px;
+    padding-left: 16%;
     font-size: 25px;
+}
+
+.nav-right{
+    padding-right: 35%;
+}
+
+.link-spacing{
+    display: flex;
+    margin-left: -8%;
 }
 
 a {
