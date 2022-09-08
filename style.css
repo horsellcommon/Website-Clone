@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
 body {
     background-color: #a0a081;
 }
@@ -14,26 +16,54 @@ body {
     width: 100%;
     padding-top: 25px;
     padding-bottom: 25px;
+    font-size: 25px;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+a:active {
+    color: black;
+    text-decoration: none;
 }
 
 #logo {
+    font-family: 'Russo One', sans-serif;
     text-align: center;
     margin: 0%;
 }
 
 #the {
+    font-family: 'Russo One', sans-serif;
     text-align: center;
     margin: 0%;
     font-size: 125px;
 }
 
 #car {
+    font-family: 'Russo One', sans-serif;
     text-align: center;
     margin: 0%;
     font-size: 135px;
 }
 
 #white-logo {
+    font-family: 'Russo One', sans-serif;
     text-align: center;
     margin: 0%;
     color: white;
@@ -79,31 +109,35 @@ body {
 }
 
 .inner-text1 {
+    font-family: 'Russo One', sans-serif;
     font-size: 100px;
     position: absolute;
     left: 300px;
-    top: 50px;
+    top: 40px;
     color: #a0a081;
 }
 .inner-text2 {
+    font-family: 'Russo One', sans-serif;
     font-size: 100px;
     position: absolute;
     left: 250px;
-    top: 120px;
+    top: 115px;
     color: #a0a081;
 }
 .inner-text3 {
+    font-family: 'Russo One', sans-serif;
     font-size: 120px;
     position: absolute;
     left: 380px;
-    top: 170px;
+    top: 175px;
     color: black;
 }
 .inner-text4 {
+    font-family: 'Russo One', sans-serif;
     font-size: 135px;
     position: absolute;
     left: 360px;
-    top: 240px;
+    top: 249px;
     color: black;
 }
 .pre-order-inner{
@@ -156,6 +190,7 @@ body {
 }
 
 #heading-center{
+    font-family: 'Russo One', sans-serif;
     font-size: 60px;
     text-align: center;
 }
