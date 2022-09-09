@@ -334,8 +334,9 @@ input{
     background-color: #a0a081;
 }
 select{
-    padding-left: 106.8%;
-    padding-right: 50%;
+    padding-left: 105.4%;
+    margin-left: 5%;
+    padding-right: 12%;
     padding-top: 5%;
     padding-bottom: 5%;
     align-items: center;
