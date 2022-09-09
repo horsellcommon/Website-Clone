@@ -15,9 +15,9 @@ body {
     position: fixed;
     top: 0;
     width: 100vw;
-    padding-top: 20px;
+    padding-top: 8px;
     padding-bottom: 15px;
-    padding-left: 16%;
+    padding-left: 17.7%;
     font-size: 25px;
 }
 
@@ -57,6 +57,7 @@ a:active {
     font-family: 'Russo One', sans-serif;
     text-align: center;
     margin: 0%;
+    margin: -4%;
 }
 
 #the {
@@ -126,42 +127,42 @@ a:active {
 .inner-image {
     position: absolute;
     top: 5%;
-    right: 35px;
+    right: 25px;
     /* width: 50%; */
     height: 36vh;
-    width: 20vw;
+    width: 19vw;
 }
 
 .inner-text1 {
     font-family: 'Russo One', sans-serif;
     font-size: 500%;
     position: absolute;
-    left: 8%;
-    top: 0.5%;
+    left: 10%;
+    top: 0.3%;
     color: #a0a081;
 }
 .inner-text2 {
     font-family: 'Russo One', sans-serif;
     font-size: 500%;
     position: absolute;
-    left: 2.5%;
-    top: 14%;
+    left: 4.3%;
+    top: 13%;
     color: #a0a081;
 }
 .inner-text3 {
     font-family: 'Russo One', sans-serif;
     font-size: 550%;
     position: absolute;
-    left: 15%;
-    top: 26.4%;
+    left: 16%;
+    top: 24%;
     color: black;
 }
 .inner-text4 {
     font-family: 'Russo One', sans-serif;
     font-size: 600%;
     position: absolute;
-    left: 14%;
-    top: 39.4%;
+    left: 15.4%;
+    top: 36%;
     color: black;
 }
 .pre-order-inner{
@@ -169,8 +170,8 @@ a:active {
     font-weight: 800;
     font-size: 150%;
     position: absolute;
-    left: 10.5%;
-    top: 68.5%;
+    left: 11.5%;
+    top: 68%;
     padding: 1%;
     color: #a0a081;
     border: solid thick #a0a081;
@@ -180,8 +181,8 @@ a:active {
     font-weight: 800;
     font-size: 150%;
     position: absolute;
-    left: 11%;
-    top: 80%;
+    left: 12%;
+    top: 82%;
     padding: 1%;
     color: #a0a081;
     border: solid thick #a0a081;
