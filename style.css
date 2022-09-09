@@ -375,3 +375,415 @@ select{
     justify-content: center;
     padding-top: 0.8%;
 }
+
+@media all and (max-width: 2000px) {
+    .link-spacing{
+        display: flex;
+        margin-left: -5%;
+    }
+    .container {
+        position: absolute;
+        top: 32%;
+        left: 30%;
+        width: 40vw;
+        height: 40vh;
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    .inner-image {
+        position: absolute;
+        top: 9%;
+        right: 25px;
+        /* width: 50%; */
+        height: 33vh;
+        width: 19vw;
+    }
+    
+    .inner-text1 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 400%;
+        position: absolute;
+        left: 10.5%;
+        top: 1%;
+        color: #a0a081;
+    }
+    .inner-text2 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 400%;
+        position: absolute;
+        left: 4.8%;
+        top: 13%;
+        color: #a0a081;
+    }
+    .inner-text3 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 450%;
+        position: absolute;
+        left: 16%;
+        top: 24%;
+        color: black;
+    }
+    .inner-text4 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 500%;
+        position: absolute;
+        left: 15%;
+        top: 34%;
+        color: black;
+    }
+    .pre-order-inner{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 150%;
+        position: absolute;
+        left: 8%;
+        top: 64%;
+        padding: 1%;
+        color: #a0a081;
+        border: solid thick #a0a081;
+    }
+    .pre-save-inner{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 150%;
+        position: absolute;
+        left: 8.6%;
+        top: 78%;
+        padding: 1%;
+        color: #a0a081;
+        border: solid thick #a0a081;
+    }
+    .input-country{
+        padding-right: 13.1%;
+    }
+    select{
+        padding-left: 34.2%;
+        padding-right: 50%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        align-items: center;
+        border: thick solid black;
+        background-color: #a0a081;
+    }
+}
+@media all and (max-width: 1814px) {
+    .link-spacing{
+        display: flex;
+        margin-left: -5%;
+    }
+    .container {
+        position: absolute;
+        top: 32%;
+        left: 30%;
+        width: 40vw;
+        height: 40vh;
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    .inner-image {
+        position: absolute;
+        top: 9%;
+        right: 25px;
+        /* width: 50%; */
+        height: 33vh;
+        width: 19vw;
+    }
+    
+    .inner-text1 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 350%;
+        position: absolute;
+        left: 12.5%;
+        top: 1%;
+        color: #a0a081;
+    }
+    .inner-text2 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 300%;
+        position: absolute;
+        left: 10%;
+        top: 13%;
+        color: #a0a081;
+    }
+    .inner-text3 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 350%;
+        position: absolute;
+        left: 19%;
+        top: 20%;
+        color: black;
+    }
+    .inner-text4 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 400%;
+        position: absolute;
+        left: 18%;
+        top: 28%;
+        color: black;
+    }
+    .pre-order-inner{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 130%;
+        position: absolute;
+        left: 10%;
+        top: 53%;
+        padding: 1%;
+        color: #a0a081;
+        border: solid thick #a0a081;
+    }
+    .pre-save-inner{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 130%;
+        position: absolute;
+        left: 10.6%;
+        top: 67%;
+        padding: 1%;
+        color: #a0a081;
+        border: solid thick #a0a081;
+    }
+    .input-country{
+        padding-right: 12.3%;
+    }
+    select{
+        padding-left: 22%;
+        padding-right: 50%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        align-items: center;
+        border: thick solid black;
+        background-color: #a0a081;
+    }
+}
+@media all and (max-width: 1569px) {
+    .link-spacing{
+        display: flex;
+        margin-left: -5%;
+    }
+    .container {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        width: 50vw;
+        height: 40vh;
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    .inner-image {
+        position: absolute;
+        top: 9%;
+        right: 25px;
+        /* width: 50%; */
+        height: 33vh;
+        width: 24vw;
+    }
+    
+    .inner-text1 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 350%;
+        position: absolute;
+        left: 12.5%;
+        top: 1%;
+        color: #a0a081;
+    }
+    .inner-text2 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 300%;
+        position: absolute;
+        left: 10%;
+        top: 13%;
+        color: #a0a081;
+    }
+    .inner-text3 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 350%;
+        position: absolute;
+        left: 19%;
+        top: 20%;
+        color: black;
+    }
+    .inner-text4 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 400%;
+        position: absolute;
+        left: 18%;
+        top: 28%;
+        color: black;
+    }
+    .pre-order-inner{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 130%;
+        position: absolute;
+        left: 10%;
+        top: 53%;
+        padding: 1%;
+        color: #a0a081;
+        border: solid thick #a0a081;
+    }
+    .pre-save-inner{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 130%;
+        position: absolute;
+        left: 10.6%;
+        top: 67%;
+        padding: 1%;
+        color: #a0a081;
+        border: solid thick #a0a081;
+    }
+    .input-country{
+        padding-right: 11%;
+    }
+    select{
+        padding-left: 5.8%;
+        padding-right: 50%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        align-items: center;
+        border: thick solid black;
+        background-color: #a0a081;
+    }
+    .product-grid{
+        display: grid;
+        margin-right: 0%; /*Percentages might be better for those with lower screen resolutions*/
+        margin-left: 33%;
+        width: 40%;
+        gap: 1rem;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+        justify-content: space-evenly;
+    }
+    .vinyl-cd-cas-links{
+        display: flex;
+        justify-content: space-between; /*Sort these out*/
+        font-size: 30px;
+    }
+    
+}
+@media all and (max-width: 1100px) {
+    .navbar {
+        z-index: 10000;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: #a0a081;
+        border: solid thin grey;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        padding-top: 8px;
+        padding-bottom: 15px;
+        padding-left: 17.7%;
+        font-size: 20px;
+    }
+    .link-spacing{
+        display: flex;
+        margin-left: 0%;
+    }
+    .container {
+        position: absolute;
+        top: 12%;
+        left: 25%;
+        width: 60vw;
+        height: 30vh;
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    .inner-image {
+        position: absolute;
+        top: 8.6%;
+        right: 25px;
+        /* width: 50%; */
+        height: 25vh;
+        width: 26vw;
+    }
+    
+    .inner-text1 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 250%;
+        position: absolute;
+        left: 16%;
+        top: 3%;
+        color: #a0a081;
+    }
+    .inner-text2 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 250%;
+        position: absolute;
+        left: 12%;
+        top: 13%;
+        color: #a0a081;
+    }
+    .inner-text3 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 300%;
+        position: absolute;
+        left: 20%;
+        top: 20%;
+        color: black;
+    }
+    .inner-text4 {
+        font-family: 'Russo One', sans-serif;
+        font-size: 350%;
+        position: absolute;
+        left: 19%;
+        top: 28%;
+        color: black;
+    }
+    .pre-order-inner{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 100%;
+        position: absolute;
+        left: 13%;
+        top: 56%;
+        padding: 1%;
+        color: #a0a081;
+        border: solid thick #a0a081;
+    }
+    .pre-save-inner{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 100%;
+        position: absolute;
+        left: 13.4%;
+        top: 70%;
+        padding: 1%;
+        color: #a0a081;
+        border: solid thick #a0a081;
+    }
+    .input-country{
+        padding-right: 7.1%;
+    }
+    select{
+        padding-right: 19%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        align-items: center;
+        border: thick solid black;
+        background-color: #a0a081;
+    }
+    .product-grid{
+        display: grid;
+        margin-right: 0%; /*Percentages might be better for those with lower screen resolutions*/
+        margin-left: 33%;
+        width: 40%;
+        gap: 1rem;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+        justify-content: space-evenly;
+    }
+    .vinyl-cd-cas-links{
+        display: flex;
+        justify-content: space-between; /*Sort these out*/
+        font-size: 30px;
+    }
+    
+}
