@@ -688,10 +688,10 @@ select{
     }
     .container {
         position: absolute;
-        top: 12%;
+        top: 7%;
         left: 25%;
         width: 60vw;
-        height: 30vh;
+        height: 20vh;
         background-color: white;
         border: 1px solid white;
     }
@@ -701,7 +701,7 @@ select{
         top: 8.6%;
         right: 25px;
         /* width: 50%; */
-        height: 25vh;
+        height: 17vh;
         width: 26vw;
     }
     
@@ -763,7 +763,7 @@ select{
         padding-right: 7.1%;
     }
     select{
-        padding-right: 19%;
+        padding-right: 15%;
         padding-top: 5%;
         padding-bottom: 5%;
         align-items: center;
@@ -773,17 +773,66 @@ select{
     .product-grid{
         display: grid;
         margin-right: 0%; /*Percentages might be better for those with lower screen resolutions*/
-        margin-left: 33%;
-        width: 40%;
+        margin-left: 0%;
+        width: 100vw;
         gap: 1rem;
         grid-auto-flow: column;
         grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
-        justify-content: space-evenly;
+        justify-content: center;
     }
     .vinyl-cd-cas-links{
         display: flex;
         justify-content: space-between; /*Sort these out*/
-        font-size: 30px;
+        font-size: 20px;
+    }
+    .image-resize{
+        height: 200px;
+        width: 200px;
+    }
+    .underline1{
+        width: 70%;
+    }
+    .underline2{
+        width: 70%;
+    }
+    .underline3{
+        width: 70%;
+    }
+    .underline4{
+        width: 70%;
+    }
+    .underline-live{
+        display: flex;
+        border: solid thick black;
+        width: 70px;
+    }
+    #live-para{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 80%
+    }
+    .live-grid{
+        display: grid;
+        gap: 1rem;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+        justify-content: space-evenly;
+        margin-left: 10%;
+    }
+    .link-box-live{
+        font-family: Arial, Helvetica, sans-serif;
+        border: solid thick black;
+        padding: 2%;
+        font-size: large;
+    }
+    .product-grid-apparel{
+        display: grid;
+        justify-content: space-evenly;
+        width: 100vw;
+        gap: 1rem;
+        grid-auto-flow: column;
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 1fr));
+        justify-content: space-evenly;
     }
     
 }
